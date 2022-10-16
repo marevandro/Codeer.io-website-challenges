@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 65%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ce2f34;
+}
+
+header{
+  width: 100%;
+  min-height: 10vh;
+  background-color: #ce2f34;
+  padding: 1.3rem 0rem;
+  position: fixed;
+  z-index: 2;
+}
+
+header nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+nav .img{
+  flex: 2 1 50rem;
+}
+
+nav ul{
+  cursor: pointer;
+  color: #1B1B1B;
+  flex: 1 1 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.2rem;
+  list-style: none; 
+
+  @media (max-width: 500px){
+    padding: 0 5px;
+  }
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #1B1B1B;
+}
+
+nav ul li a:hover{
+  color: #0c0457;
+}
+
+nav ul li{
+  padding: 0 1%;
+}
+.section-img-1{
+  min-height: 90vh;
+  background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/07/Thor-Cropped.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.text{
+  padding-top: 30rem;
+  width: 90%;
+  margin: auto;
+  color: #FFF;
+}
+
+.text h1{
+  font-size: 3rem;
+}
+
+.text p{
+  padding-top: 2rem;
+  padding-left: 1,4rem;
+  font-size: 1.2rem;
+  width: 40%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-img-2{
+  margin-top: 2%;
+  min-height: 90vh;
+  background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/07/Thor-Thanos-Cropped.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+.section-img-2 h1{
+  color: #FFF;
+  padding-top: 40rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer{
+  color: #FFF;
+  font-size: 1rem;
+  min-height: 10vh;
+  background-color: #ce2f34;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+footer a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+footer a:hover{
+  color: #0c0457;
+}
