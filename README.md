@@ -1,2 +1,2 @@
-# Desenvolvedor-WEB
-Criação de site web usando HTML, CSS e JS para estudo, com alterações pessoais. 
+# Challenges
+Alguns desafios para melhorar minhas skills no Front-end Web do site: https://codier.io/
